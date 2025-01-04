@@ -1,0 +1,39 @@
+1.First, let’s take a look at the JavaScript in the index.html file.
+The JavaScript code is between the <script> tags. 
+This tag alerts the browser that the page contains 
+JavaScript and separates the JavaScript code from the HTML.
+Find the JavaScript function changeColor(). 
+This function chooses a color from a list of colors.
+
+How does that happen?
+
+First, the getRandomColor() function generates a random series of
+numbers and letters to create a new hexadecimal color code.
+It then saves the new color under the name newColor.
+
+let newColor = getRandomColor();
+
+On the next line, the document keyword accesses the page’s 
+background color and sets it equal to the new color.
+
+document.body.style.backgroundColor = newColor;
+
+Click the Run button to move on to the next checkpoint to see 
+how we can let a user change the color!
+
+2. The next step is to connect the changeColor() JavaScript function with an 
+event, so that when we click the Repaint! button, it changes the 
+background color.
+
+An event is something that can happen in a browser, like clicking or 
+hovering with your mouse.
+HTML attributes can set events, where the name of the attribute is 
+the event and the value of the attribute is the JavaScript function that we want to execute.
+In this case, the name of the event is onclick and we can 
+invoke the function by calling "changeColor()".
+Paste this code into the opening tag of the button element: 
+onclick="changeColor()".
+
+3. Let’s test out the functionality of the code that we 
+just added. When you click the “Repaint!” button, the background color of the
+site should be reset at random!
