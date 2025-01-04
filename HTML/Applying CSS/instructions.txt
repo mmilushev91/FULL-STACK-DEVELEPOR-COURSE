@@ -1,0 +1,17 @@
+1.On line 6 of index.html, copy and paste the code below to apply 
+the CSS file to the existing HTML.
+
+<link rel="stylesheet" href="style.css">
+
+2.Just a little CSS can make the difference between a website that looks 
+like a skeleton and portfolio-ready site.
+Now let’s tweak the CSS just a little bit, to see how the visual rules
+specified in CSS can change the way that a website is displayed.
+Navigate to the style.css and scroll down to line 37 where you will 
+see the h1 selector. This section defines the styles for the h1 element 
+on the page, which is the most prominent heading.
+Just for practice, change the color property from white to black.
+
+3.If you look at the rendered browser, you’ll notice 
+that the heading text is no longer readable in-front of the image.
+Let’s change the color property within the h1 selector back to white.
